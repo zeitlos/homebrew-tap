@@ -2,25 +2,25 @@
 cask "lucity" do
   auto_updates true
 
-  version "26.11.3"
+  version "26.11.4"
 
   on_macos do
     on_arm do
-      sha256 "f0abb84ab02e9c218fb4b180f81bcc87a3be79fd2a58c173289698a38ee25617"
+      sha256 "ec61c320cb4392fb8ab0348bb253bf773d9e910e5358dabc9eb63a2a12aafd58"
       url "https://github.com/zeitlos/lucity/releases/download/v#{version}/lucity_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "40c1ca9c8bca19b2566820e54e66d3b06ce20a9955c562fa75dfd61f43fb6609"
+      sha256 "39d01368ad4c4808455d5b2561a0f3d191a7f1c0e0bdb8eb7c46f3d893e9b72f"
       url "https://github.com/zeitlos/lucity/releases/download/v#{version}/lucity_#{version}_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "11cfcdeb831a9c275410476211b12bf3262dca6b182c1fece44072d5d3b77acb"
+      sha256 "7d699363dc402ca3e72be117dd1152e52528959b79f53e70ddf36dc2b23e8957"
       url "https://github.com/zeitlos/lucity/releases/download/v#{version}/lucity_#{version}_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "d029a703ecd92afa261b4e32589ec4feea930907498c6077ca97590fa64ef3a2"
+      sha256 "71ac3bcd2c53b8d64ab30423b6dbe6ba5cc0098a19c9cee990174b8e5838e0f0"
       url "https://github.com/zeitlos/lucity/releases/download/v#{version}/lucity_#{version}_linux_amd64.tar.gz"
     end
   end
